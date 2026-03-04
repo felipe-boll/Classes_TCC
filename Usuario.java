@@ -5,6 +5,10 @@ public class Usuario {
     private String objetivo;
 
     public Usuario(String nome, String email, String senha, String objetivo) {
+        this.nome = nome;
+        this.email = email;
+        this.senha = senha;
+        this.objetivo = objetivo;
     }
 
     public String getNome() {
