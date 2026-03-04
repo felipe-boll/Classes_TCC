@@ -1,10 +1,10 @@
-package atividadeTCC;
-
 public class Instrumento {
     private String nome;
     private String descricao;
 
-    public Instrumento() {
+    public Instrumento(String nome, String descricao) {
+        this.nome = nome;
+        this.descricao = descricao;
     }
 
     public String getNome() {

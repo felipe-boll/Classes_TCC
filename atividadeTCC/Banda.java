@@ -1,21 +1,10 @@
-package atividadeTCC;
-
 import java.util.*;
 
-public class Banda {
-    private String nome;
+public class Banda extends Artista {
     private List<Cantor> cantores = new ArrayList<>();
-    private ArrayList<Musica> musicas = new ArrayList<>();
 
-    public Banda() {
-    }
-
-    public String getNome() {
-        return nome;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
+    public Banda(String nome) {
+        super(nome);
     }
 
     public List<Cantor> getCantores() {
@@ -24,13 +13,5 @@ public class Banda {
 
     public void setCantores(List<Cantor> cantores) {
         this.cantores = cantores;
-    }
-
-    public ArrayList<Musica> getMusicas() {
-        return musicas;
-    }
-
-    public void setMusicas(ArrayList<Musica> musicas) {
-        this.musicas = musicas;
     }
 }

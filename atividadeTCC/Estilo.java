@@ -1,9 +1,8 @@
-package atividadeTCC;
-
 public class Estilo {
     private String nome;
 
-    public Estilo() {
+    public Estilo(String nome) {
+        this.nome = nome;
     }
 
     public String getNome() {

@@ -1,17 +1,19 @@
-package atividadeTCC;
-
+import java.util.LinkedList;
 import java.util.List;
 
 public class Musica {
     private String nome;
     private String duracao;
     private String letra;
-    private List<Instrumento> instrumentos;
-    private List<Banda> bandas;
-    private List<Estilo> estilos;
-    private List<Usuario> usuarios;
+    private List<Instrumento> instrumentos = new LinkedList<>();
+    private List<Banda> bandas = new LinkedList<>();
+    private List<Estilo> estilos = new LinkedList<>();
+    private List<Usuario> usuarios = new LinkedList<>();
 
-    public Musica() {
+    public Musica(String nome, String duracao, String letra) {
+        this.nome = nome;
+        this.duracao = duracao;
+        this.letra = letra;
     }
 
     public String getNome() {
