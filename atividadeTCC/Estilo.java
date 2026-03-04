@@ -1,5 +1,3 @@
-package atividadeTCC;
-
 public class Estilo {
     private String nome;
 

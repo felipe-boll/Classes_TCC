@@ -1,5 +1,3 @@
-package atividadeTCC;
-
 public class Instrumento {
     private String nome;
     private String descricao;

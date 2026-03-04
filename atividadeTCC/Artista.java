@@ -1,11 +1,13 @@
-import java.util.*;
 
-public class Cantor {
+import java.util.ArrayList;
+import java.util.List;
+
+public class Artista {
     private String nome;
     private List<Musica> musicas = new ArrayList<>();
-    private Banda banda;
 
-    public Cantor() {
+    public Artista(String nome){
+        this.nome = nome;
     }
 
     public String getNome() {
@@ -23,13 +25,4 @@ public class Cantor {
     public void setMusicas(List<Musica> musicas) {
         this.musicas = musicas;
     }
-
-    public Banda getBanda() {
-        return banda;
-    }
-
-    public void setBanda(Banda banda) {
-        this.banda = banda;
-    }
-
 }
