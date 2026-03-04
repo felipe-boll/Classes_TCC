@@ -1,9 +1,8 @@
 public class Cantor extends Artista {
     private Banda banda;
 
-    public Cantor(String nome, Banda banda) {
+    public Cantor(String nome) {
         super(nome);
-        this.banda = banda;
     }
 
     public Banda getBanda() {
